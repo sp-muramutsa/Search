@@ -240,5 +240,80 @@ footer
     
 }
 
+/* Advanced */
 
+.advanced-main
+{
+    display: block;
+    align-items: left;
+    text-align: left;
+    justify-content: left;
+}
+
+.advanced-logo
+{
+    width: 98px;
+    height: 80px;
+    margin-top: -20px;
+    margin-left: -17px;
+}
+
+.advanced-red-title
+{
+    color: #EA4335;
+    font-size: 19px;
+    padding-left: 20px;
+    margin-top: -50px;
+}
+
+.line {
+    height: 1px;
+    background-color: #e7dfdf; 
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+}
+
+.advanced-content
+{
+    padding-left: 20px;
+}
+
+.search-field
+{
+    padding-top: 25px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-size: 14px;
+}
+
+.search-field input 
+{
+    position: absolute;
+    width: 360px;
+    height: 28px;
+    outline: 1.3px solid #cecaca; 
+    border: none;
+    margin-left: 25%;
+}
+
+
+.search-field input:focus 
+{
+    outline-color: #4285F4;
+    outline-offset: -1px;
+}
+
+.advanced-button
+{
+    background-color: #4285F4;
+    color: white;
+    height: 30px;
+    width: 120px;
+    border: none;
+    font-weight: 550;
+    font-size: 12px;
+    margin-left: 50%;
+}
 
