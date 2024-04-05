@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charsets="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- icons: Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Search Images</title>
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <div class="navbar-l">
+            <img class="advanced-logo" src="templates/google-logo.svg" alt="Google Logo">
+        </div>
+        <div class="navbar-wrapper">
+            <a href="index.html">Search</a>
+            <div class="app">
+                <i class="fas fa-ellipsis-v"></i>
+                <i class="fas fa-ellipsis-v"></i>
+                <i class="fas fa-ellipsis-v"></i>
+            </div>
+            <div class="account">
+                <img class="account" src="templates/account.JPG">
+            </div>
+    </nav>
+
+    <!--Main-->
+    
+    <main class="advanced-main">
+        <div class="advanced-red-title">
+            Advanced Search
+        </div>
+        <div class="line"></div>
+
+        <div class="advanced-content">
+            <div>
+                Find Pages with...
+            </div>
+            <div>
+                <form action="https://www.google.com/search" method="GET">
+                    <div class="search-field">
+                        <label>all these words:</label>
+                        <input type="text" name="as_q" autocomplete="off">
+                    </div>
+                    <div class="search-field">
+                        <label>this exact word or phrase:</label>
+                        <input type="text" name="as_epq" autofocus autocomplete="off">
+                    </div>
+                    <div class="search-field">
+                        <label>any of these words:</label>
+                        <input type="text" name="as_oq" autocomplete="off"autocomplete="off">
+                    </div>
+                    <div class="search-field">
+                        <label>none of these words:</label>
+                        <input type="text" name="as_eq" autocomplete="off">
+                    </div>
+            <div class="line"></div>
+                    <div class="button-container">
+                        <button class="advanced-button" type="submit">Advanced Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer-->
+    <footer>
+        <div class="footer-menu">
+            <div class="left-menu">
+                <a href="https://support.google.com/websearch/?visit_id=638478968713261110-2849317144&hl=en&rd=2#topic=3378866">Help</a>
+                <a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
+                <a href="https://policies.google.com/terms?hl=en&fg=1">Terms</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
